@@ -124,11 +124,11 @@ settings:
 }
 
 .panorama-overwrite-editor-font {
-	--font-text: 'Space Grotesk', sans-serif !important;
+	--font-text: 'Space Grotesk', sans-serif;
 }
 
 .panorama-overwrite-interface-font {
-	--font-interface: 'JetBrains Mono', monospace !important;
+	--font-interface: 'JetBrains Mono', monospace;
 }
 
 .panorama-centered-h1 {
@@ -149,7 +149,7 @@ settings:
 }
 
 mjx-container[display='true'] {
-	background-color: var(--color-base-10) !important;
+	background-color: var(--color-base-10);
 }
 
 .kanban-plugin {
@@ -223,7 +223,7 @@ body {
 .theme-light,
 .is-mobile.theme-light {
 	thead {
-		background-color: hsl(var(--hsl-color-base-10)) !important;
+		background-color: hsl(var(--hsl-color-base-10));
 	}
 
 	/* Base Colors */
@@ -324,7 +324,7 @@ body {
 .theme-dark,
 .is-mobile.theme-dark {
 	tbody {
-		background-color: hsl(var(--hsl-color-base-10)) !important;
+		background-color: hsl(var(--hsl-color-base-10));
 	}
 
 	/* Base Colors */
@@ -356,6 +356,8 @@ body {
 	--color-base-100: hsl(var(--hsl-color-base-100));
 	--panorama-accent: hsl(var(--hsl-panorama-accent));
 
+	--text-accent: var(--panorama-accent);
+	--text-accent-hover: hsl(var(--hsl-panorama-accent), 0.7);
 	--interactive-normal: var(--color-base-25);
 	--interactive-hover: hsl(var(--hsl-color-base-25), 0.5);
 	--interactive-accent: var(--color-base-40);
