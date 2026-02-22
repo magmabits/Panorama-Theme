@@ -254,6 +254,8 @@ body {
 	--color-base-70: hsl(var(--hsl-color-base-70));
 	--color-base-100: hsl(var(--hsl-color-base-100));
 
+	--text-accent: var(--panorama-accent);
+	--text-accent-hover: var(--color-base-50);
 	--interactive-normal: var(--color-base-25);
 	--interactive-hover: hsl(var(--hsl-color-base-25), 0.5);
 	--interactive-accent: var(--color-base-25);
