@@ -18,17 +18,11 @@ settings:
 				value: panorama-cornflower
 				default: true
 			-
-				label: 🩵 Hydrangea
-				value: panorama-hydrangea
-			-
 				label: 💜 Lavender
 				value: panorama-lavender
 			-
 				label: 🧡 Marigold
 				value: panorama-marigold
-			-
-				label: 💚 Amaranthus
-				value: panorama-amaranthus
 	- 
         id: panorama-dark-color-scheme
         title: ⚫ Dark Color Scheme
@@ -282,7 +276,7 @@ body {
 
 	/* UI */
 	--background-modifier-border-hover: var(--color-base-40);
-	--background-modifier-active-hover: var(--color-base-40);
+	--background-modifier-active-hover: var(--color-base-20);
 	--nav-item-background-active: var(--color-base-30);
 	--nav-item-background-hover: hsl(var(--hsl-color-base-50), 0.2);
 	--background-modifier-hover: hsl(var(--hsl-color-base-30), 0.5);
@@ -292,22 +286,6 @@ body {
 	--titlebar-background: var(--color-base-20);
 	--titlebar-background-focused: var(--color-base-20);
 	--icon-color-active: var(--color-base-70);
-
-	&.panorama-hydrangea {
-		--hsl-color-base-00: 167, 62%, 85%;
-		--hsl-color-base-05: 167, 54%, 75%;
-		--hsl-color-base-10: 167, 54%, 75%;
-		--hsl-color-base-20: 167, 54%, 75%;
-		--hsl-color-base-25: 167, 53%, 65%;
-		--hsl-color-base-30: 167, 53%, 65%;
-		--hsl-color-base-35: 167, 53%, 65%;
-		--hsl-color-base-40: 178, 52%, 55%;
-		--hsl-color-base-50: 167, 51%, 45%;
-		--hsl-color-base-60: 167, 51%, 45%;
-		--hsl-color-base-70: 167, 53%, 35%;
-		--hsl-color-base-100: 167, 54%, 25%;
-		--hsl-panorama-accent: 164, 77%, 60%;
-	}
 
 	&.panorama-lavender {
 		--hsl-color-base-00: 258, 62%, 85%;
@@ -338,21 +316,6 @@ body {
 		--hsl-color-base-70: 27, 53%, 35%;
 		--hsl-color-base-100: 28, 54%, 25%;
 		--hsl-panorama-accent: 24, 77%, 60%;
-	}
-	&.panorama-amaranthus {
-		--hsl-color-base-00: 138, 62%, 85%;
-		--hsl-color-base-05: 137, 54%, 75%;
-		--hsl-color-base-10: 137, 54%, 75%;
-		--hsl-color-base-20: 137, 54%, 75%;
-		--hsl-color-base-25: 134, 33%, 69%;
-		--hsl-color-base-30: 134, 33%, 69%;
-		--hsl-color-base-35: 134, 33%, 69%;
-		--hsl-color-base-40: 134, 31%, 55%;
-		--hsl-color-base-50: 138, 51%, 45%;
-		--hsl-color-base-60: 138, 51%, 45%;
-		--hsl-color-base-70: 137, 53%, 35%;
-		--hsl-color-base-100: 137, 54%, 25%;
-		--hsl-panorama-accent: 134, 77%, 60%;
 	}
 }
 
